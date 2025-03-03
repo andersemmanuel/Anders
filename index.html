@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="javascript developer">
     <title>Site développeur</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/main.css">
 </head>
@@ -16,46 +20,30 @@
     </header>
     <main>
         <!-- exception qui confirme la règle -->
-        <div role="region">
+        <div role="region" class="gallery-content">
             <!-- source pour les image -->
+
+            <ul class="gallery-grid">
+                <li><img loading="lazy"src="https://www.pokepedia.fr/images/2/2c/Damien-ROSA.png"alt="Damien"></li>
+                <li><img loading="lazy"src="https://www.pokepedia.fr/images/f/fc/Spectra-ROSA.png"alt="Spectra"></li>
+                <li><img loading="lazy"src="https://www.pokepedia.fr/images/7/75/Glacia-ROSA.png"alt="Glacia"></li>
+                <li><img loading="lazy"src="https://www.pokepedia.fr/images/f/f9/Aragon-ROSA.png"alt="Aragon"></li>
+            </ul>
             
-            <img
-                loading="lazy"
-                src="https://www.pokepedia.fr/images/2/2c/Damien-ROSA.png"
-                alt="Damien"
-            >
-           
-
-            <img
-            loading="lazy"
-            src="https://www.pokepedia.fr/images/f/fc/Spectra-ROSA.png"
-            alt="Spectra"
-            >
-
-            <img
-            loading="lazy"
-            src="https://www.pokepedia.fr/images/7/75/Glacia-ROSA.png"
-            alt="Glacia"
-          >
-
-          <img
-          loading="lazy"
-          src="https://www.pokepedia.fr/images/f/f9/Aragon-ROSA.png"
-          alt="Aragon"
-        >
         </div>
 
-        <picture>
+        <picture class="picture">
           <source media="(min-width:65rem)" srcset="./asset/cover.svg">
-            <source media="(min-width:46.5rem)" srcset="./asset/cover.svg"> 
-            <img src="./asset/cover.svg" alt="Cover">
+          <source media="(min-width:46.5rem)" srcset="./asset/cover.svg">
+          <img src="./asset/cover.svg" alt="Cover">
         </picture> 
 
-        <article>
+        <article class="article">
             
             <h2>
                 
                 Description du projet
+
             </h2>
             <details>
                 <summary>
@@ -72,13 +60,13 @@
                 </ul>
             </details>
         </article>
-        <article>
+        <article class="article">
             <h2>Compatibilité</h2>
             <p>During this last day, however, little by little the gangways were cleared, the scaffoldings were taken down, 
                 the fly-wheel cranes disappeared, the fixing of the engines was accomplished,</p>
         </article>
 
-        <article>
+        <article class="article">
             <h2>Flexibilité</h2>
             <p>During this last day, however, little by little the gangways were cleared,
                  the scaffoldings were taken down, the fly-wheel cranes disappeared, the fixing of the engines was accomplished,

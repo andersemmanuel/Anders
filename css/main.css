@@ -14,3 +14,43 @@ header{
         font-weight: bolder;
     }
 }
+.gallery-content{
+    max-width: 90.0rem;
+    margin: 5rem auto 2rem;
+
+        .gallery-grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+        
+    }
+    .gallery-grid li img{
+        width: 100%;
+        filter: drop-shadow(0 0 0.9rem crimson);
+    }
+}
+
+.picture{
+    display: block;
+    width: 30rem;
+    margin: auto;
+    text-align: center;
+    filter: drop-shadow(0 0 0.9rem crimson);
+    img{ 
+        width: 100%;
+    }
+}
+.article{
+    max-width: 80rem;
+    margin: 0 auto 1rem;
+    h2{
+        width: max-content;
+        padding: 1rem;
+        background-color: #222;
+        color: #fff;
+    }
+    p{
+        border-top: solid .1rem #222;
+        padding: 1rem;
+    }
+}
