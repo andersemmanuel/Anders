@@ -1,0 +1,49 @@
+
+html {
+    font-size: 62.5%; 
+}
+
+body {
+    display: grid;
+    grid-row: auto 1fr auto;
+    font-size: 1.6rem sans-serif;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    letter-spacing: 0.1rem;
+    min-height: 100svh;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size: xx-large;
+    margin:0;
+    font-weight: normal;
+}
+
+p, figure, ol, ul, details summary{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+details summary::-webkit-details-marker {
+    display: none;   /* Masque la flèche pour les navigateurs WebKit (comme Chrome et Safari) */
+    
+}
+details summary{
+    cursor: pointer;
+}
