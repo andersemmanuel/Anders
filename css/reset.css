@@ -1,37 +1,30 @@
-
+/* Définir la taille de base pour le rem */
 html {
-    font-size: 62.5%; 
+    font-size: 62.5%; /* 1rem = 10px */
 }
 
 body {
     display: grid;
-    grid-row: auto 1fr auto;
-    font-size: 1.6rem sans-serif;
+    grid-template-rows: auto 1fr auto;
+    font: 1.6rem sans-serif; /* 16px */
     line-height: 1.6;
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #222;
     letter-spacing: 0.1rem;
     min-height: 100svh;
 }
-
 *{
     box-sizing: border-box;
 }
-
 a{
     text-decoration: none;
+    font-weight: normal;
+    color: #222;
 }
-
-h1 {
-    font-size: 2.4rem;
-    margin-bottom: 1rem;
-}
-
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3, h4, h5, h6 {
     font-size: xx-large;
-    margin:0;
+    margin: 0;
     font-weight: normal;
 }
 
